@@ -1,0 +1,89 @@
+.main-btn {
+    display: inline-block;
+    padding: 10px 35px;
+    margin: 3px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    -webkit-transition: 0.2s ;
+    transition: 0.2s ;
+    padding: 8px 22px;
+  		font-size:14px;
+     
+    background: #6195FF;
+    color: #FFF;
+}
+.main-btn:hover {
+    background: #ffcd61;
+    transition: all .4s ease-in;
+}
+  input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"]{
+    height: 40px;
+    width: 100%;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    background: #F4F4F4;
+    border-bottom: 2px solid #EEE;
+    
+    padding: 0px 10px;
+    opacity: 0.8;
+    -webkit-transition: 0.2s border-color, 0.2s opacity;
+    transition: 0.2s border-color, 0.2s opacity;
+}
+
+ textarea {
+    height: 60px;
+    width: 100%;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    background: #F4F4F4;
+    border-bottom: 2px solid #EEE;
+    
+    padding: 0px 10px;
+    opacity: 0.8;
+    -webkit-transition: 0.2s border-color, 0.2s opa
+}
+  .contact {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.contact i {
+    font-size: 36px;
+    color: #6195FF;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-form .input {
+    margin-bottom: 20px;
+}
+
+
+.contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
+    width: calc(50% - 10px);
+}
+
+.contact-form .input:nth-child(2) {
+    margin-left: 15px;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    .contact i {
+        font-size: 20px;
+        color: #6195FF;
+        margin-bottom: 20px;
+    }
+    .contact h3{
+        font-size: 16px;
+    }
+}
